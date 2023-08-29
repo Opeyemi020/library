@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap">
 </head>
 <body>
+
+        <div class="main">
+            <input type="checkbox" id="chk" aria-hidden="true">
+
+            <div class="signup">
+                <form>
+                    <label for="chk" aria-hidden="true">Sign up</label>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password" name="pswd" placeholder="Password" required="">
+                    <input type="number" name="num" placeholder="Name" required="">
+                    <button>Sign up</button>
+                </form>
+
+            </div>
+
+            <div class="login">
+                <form>
+                    <label for="chk" aria-hidden="true">Login</label>
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password" id="password" name="pswd" placeholder="Password" required="">
+                    <button> </button>
+                </form>
+
+            </div>
+
+        </div>
 
 </body>
 </html>
